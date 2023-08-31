@@ -1,0 +1,13 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@font-face {
+    font-family: ;
+    src: url('Angelia\ Beauty.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+}

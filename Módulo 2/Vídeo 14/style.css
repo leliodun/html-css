@@ -1,0 +1,8 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+body {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+}
