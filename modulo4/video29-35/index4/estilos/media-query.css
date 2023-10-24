@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+@media print  { 
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        font-size: 0.5em;
+        content: 'Essa impressão foi feita através do vini';
+        text-decoration: overline;
+        text-align: center;
+        margin: auto;
+    }
+
+    main h1 {
+        background-image: url(../imagens/back-print.jpg); /* inutil */
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    img#iphone {display: none;}
+    img#itablet { display: none;}
+    img#iprint { display: block;}
+    img#ipc { display: none;}
+    img#itv { display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    body {
+        background-image: url(../imagens/back-tablet.jpg); 
+        
+    }
+
+    img#iphone {display: none;}
+    img#itablet { display: block;}
+    img#iprint { display: none;}
+    img#ipc { display: none;}
+    img#itv { display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { 
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#iphone {display: none;}
+    img#itablet { display: none;}
+    img#iprint { display: none;}
+    img#ipc { display: block;}
+    img#itv { display: none;}
+}
+
+@media screen and (min-width: 1200px) { 
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+
+    img#iphone {display: none;}
+    img#itablet { display: none;}
+    img#iprint { display: none;}
+    img#ipc { display: none;}
+    img#itv { display: block;}
+}

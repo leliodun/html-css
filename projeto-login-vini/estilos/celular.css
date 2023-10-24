@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+:root {
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+    }
+
+html,body,main,section {
+    background-color: var(--cor2);
+    background-attachment: fixed;
+}
